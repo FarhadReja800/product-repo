@@ -14,7 +14,8 @@
 
 }
 .logo-img{
-    width: 120px;
+    width: 150px;
+    text-align: left;
     
 }
 .menus{
@@ -28,4 +29,46 @@
 .items:hover{
     color: aqua;
     cursor: pointer;
+}
+.banner-ing{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("/pic/background.png"),
+    linear-gradient(45deg,#131212,#2e2d2d);
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.cp{
+    color: rgb(120, 120, 206);
+    font-size: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.btn{
+    padding: 10px 20px ;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.btn:hover{
+    color: blue;
+    cursor: pointer;
+
 }
